@@ -1,0 +1,28 @@
+<svg width="100%" viewBox="0 0 680 240" role="img" xmlns="http://www.w3.org/2000/svg" style="">
+  <title style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">Jacedo Solutions Ltd logo</title>
+  <desc style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">3D extruded wordmark with drop shadow for Jacedo Solutions Ltd</desc>
+
+  <defs>
+    
+    <filter id="shadow" x="-10%" y="-10%" width="130%" height="160%">
+      <feDropShadow dx="0" dy="18" stdDeviation="12" flood-color="#00000033"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#shadow)" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">
+    <!-- 3D extrusion layers -->
+    <text x="348" y="152" text-anchor="middle" font-family="'IBM Plex Sans', sans-serif" font-size="118" font-weight="700" letter-spacing="6" fill="#c0c0c0" style="fill:rgb(192, 192, 192);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;IBM Plex Sans&quot;, sans-serif;font-size:118px;font-weight:700;text-anchor:middle;dominant-baseline:auto">JACEDO</text>
+    <text x="347" y="151" text-anchor="middle" font-family="'IBM Plex Sans', sans-serif" font-size="118" font-weight="700" letter-spacing="6" fill="#c8c8c8" style="fill:rgb(200, 200, 200);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;IBM Plex Sans&quot;, sans-serif;font-size:118px;font-weight:700;text-anchor:middle;dominant-baseline:auto">JACEDO</text>
+    <text x="346" y="150" text-anchor="middle" font-family="'IBM Plex Sans', sans-serif" font-size="118" font-weight="700" letter-spacing="6" fill="#d0d0d0" style="fill:rgb(208, 208, 208);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;IBM Plex Sans&quot;, sans-serif;font-size:118px;font-weight:700;text-anchor:middle;dominant-baseline:auto">JACEDO</text>
+    <text x="345" y="149" text-anchor="middle" font-family="'IBM Plex Sans', sans-serif" font-size="118" font-weight="700" letter-spacing="6" fill="#d8d8d8" style="fill:rgb(216, 216, 216);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;IBM Plex Sans&quot;, sans-serif;font-size:118px;font-weight:700;text-anchor:middle;dominant-baseline:auto">JACEDO</text>
+    <text x="344" y="148" text-anchor="middle" font-family="'IBM Plex Sans', sans-serif" font-size="118" font-weight="700" letter-spacing="6" fill="#e0e0e0" style="fill:rgb(224, 224, 224);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;IBM Plex Sans&quot;, sans-serif;font-size:118px;font-weight:700;text-anchor:middle;dominant-baseline:auto">JACEDO</text>
+    <text x="343" y="147" text-anchor="middle" font-family="'IBM Plex Sans', sans-serif" font-size="118" font-weight="700" letter-spacing="6" fill="#e6e6e6" style="fill:rgb(230, 230, 230);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;IBM Plex Sans&quot;, sans-serif;font-size:118px;font-weight:700;text-anchor:middle;dominant-baseline:auto">JACEDO</text>
+
+    <!-- Top face -->
+    <text x="340" y="144" text-anchor="middle" font-family="'IBM Plex Sans', sans-serif" font-size="118" font-weight="700" letter-spacing="6" fill="#b0b0b0" style="fill:rgb(176, 176, 176);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;IBM Plex Sans&quot;, sans-serif;font-size:118px;font-weight:700;text-anchor:middle;dominant-baseline:auto">JACEDO</text>
+  </g>
+
+  <!-- Sub label -->
+  <text x="340" y="210" text-anchor="middle" font-family="'IBM Plex Sans', sans-serif" font-size="11" font-weight="400" letter-spacing="5" fill="#aaaaaa" style="fill:rgb(170, 170, 170);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;IBM Plex Sans&quot;, sans-serif;font-size:11px;font-weight:400;text-anchor:middle;dominant-baseline:auto">SOLUTIONS LTD</text>
+
+</svg>

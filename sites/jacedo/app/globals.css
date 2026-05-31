@@ -43,7 +43,7 @@ body {
     @apply text-[14px] md:text-[16px] font-medium;
   }
   p {
-    @apply text-[14px] text-gray-500;
+    @apply text-[14px] text-gray-800;
   }
 }
 
