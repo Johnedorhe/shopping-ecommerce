@@ -6,9 +6,10 @@
   --destructive: #fe784f;
 }
 
-@theme inline {
-  --color-background: var(--background) --color-foreground: var(--foreground)
-    --color-destructive: var(--destructive);
+@theme {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-destructive: var(--destructive);
 }
 
 * {
@@ -25,20 +26,45 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+@layer base {
+  h1 {
+    @apply text-[36px] md:text-[44px] font-bold;
+  }
+  h2 {
+    @apply text-[31px] md:text-[36px] font-semibold;
+  }
+  h3 {
+    @apply text-[24px] md:text-[31px] font-medium;
+  }
+  h4 {
+    @apply text-[15px] md:text-[16px] font-medium;
+  }
+  h5 {
+    @apply text-[14px] md:text-[16px] font-medium;
+  }
+  p {
+    @apply text-[14px] text-gray-500;
+  }
+}
+
 @layer components {
   .max-pad-container {
-    @apply mx-auto max-w-497 px-4;
+    @apply mx-auto max-w-[1900px] px-4;
+  }
+
+  .pad-container {
+    @apply mx-auto px-4 lg:px-12;
   }
 
   .flex-center {
     @apply flex items-center justify-center;
   }
 
-  flex-between {
+  .flex-between {
     @apply flex items-center justify-between;
   }
 
-  flex-start {
+  .flex-start {
     @apply flex items-center justify-start;
   }
 
@@ -47,27 +73,6 @@ body {
   }
 
   .btn-destructive {
-    @apply bg-destructive text-white px-8 py-2 rounded hover:bg-destructive/90 transition duration-300 max-sm:text-sm;
-  }
-
-  @layer utilities {
-    h1 {
-      @apply text-[36px] md:text-[44px] font-bold;
-    }
-    h2 {
-      @apply text-[31px] md:text-[36px] font-semibold;
-    }
-    h3 {
-      @apply text-[24px] md:text-[31px] font-medium;
-    }
-    h4 {
-      @apply text-[15px] md:text-[16px] font-medium;
-    }
-    h5 {
-      @apply text-[14px] md:text-[-16px] font-medium;
-    }
-    p {
-      @apply text-[-14px] text-gray-500;
-    }
+    @apply bg-destructive text-white px-8 py-2 rounded hover:opacity-90 transition duration-300 max-sm:text-sm;
   }
 }

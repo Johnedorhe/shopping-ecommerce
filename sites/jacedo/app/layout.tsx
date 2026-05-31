@@ -25,11 +25,11 @@ export default function RootLayout({
       className={`${inter.className} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
-        <head>
+        <header>
           <Header />
-        </head>
+        </header>
 
-        <main>
+        <main className="mt-20">
         {children}
         </main>
 
