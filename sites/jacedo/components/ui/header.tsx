@@ -38,13 +38,13 @@ const Header = () => {
                 ))}
             </div>
 
-            {/* ✅ UPDATED: Added better default gap-4 and desktop gap-6 to isolate siblings */}
+            {/* Right Side Icons & Actions */}
             <div className={`flex items-center gap-4 sm:gap-6 ${searchOpen ? 'w-full justify-end sm:w-auto' : ''}`}>
                 
                 {/* Collapsible Search Bar */}
                 <div className={`flex items-center text-sm transition-all duration-300 ${
                     searchOpen 
-                        ? 'border border-gray-300 px-3 rounded-full bg-white w-full max-w-70 sm:max-w-50 md:max-w-62' 
+                        ? 'border border-gray-300 px-3 rounded-full bg-white w-full max-w-[280px] sm:max-w-[200px] md:max-w-[250px]' 
                         : 'border-0 p-0 w-auto'
                 }`}>
                     {searchOpen ? (
@@ -67,7 +67,6 @@ const Header = () => {
                 </div>
 
                 {/* Cart Badge */}
-                {/* ✅ UPDATED: Added extra right margin space (sm:mr-2) when layout expands on desktop */}
                 <div className={`${searchOpen ? 'hidden sm:block' : 'relative'} cursor-pointer sm:mr-2`}>
                     <svg width="18" height="18" viewBox="0 0 14 14" fill="none" xmlns="http://w3.org">
                         <path d="M.583.583h2.333l1.564 7.81a1.17 1.17 0 0 0 1.166.94h5.67a1.17 1.17 0 0 0 1.167-.94l.933-4.893H3.5m2.333 8.75a.583.583 0 1 1-1.167 0 .583.583 0 0 1 1.167 0m6.417 0a.583.583 0 1 1-1.167 0 .583.583 0 0 1 1.167 0" stroke="#615fff" strokeLinecap="round" strokeLinejoin="round" />
@@ -82,7 +81,6 @@ const Header = () => {
                 </button>
 
                 {/* Mobile Hamburger Trigger */}
-                {/* ✅ UPDATED: Added spacing cushion (ml-2) so it stays away from the search / cart items */}
                 <button onClick={() => setOpen(!open)} aria-label="Toggle Menu" className={`${searchOpen ? 'hidden sm:block' : 'block'} sm:hidden cursor-pointer z-50 ml-2`}>
                     <svg width="21" height="15" viewBox="0 0 21 15" fill="none" xmlns="http://w3.org">
                         <rect width="21" height="1.5" rx=".75" fill="#426287" />
@@ -99,12 +97,13 @@ const Header = () => {
                         key={link.href} 
                         href={link.href} 
                         onClick={() => setOpen(false)}
-                        className={`block w-full py-1 ${pathname === link.href ? 'text-indigo-500 font-medium' : 'text-gray-700'}`}
+                        className={`block w-full py-1 transition-colors ${pathname === link.href ? 'text-destructive font-semibold' : 'text-gray-700'}`}
                     >
                         {link.name}
                     </Link>
                 ))}
                 
+                {/* Mobile Login Button */}
                 <button className="w-full flex items-center justify-center gap-2 cursor-pointer text-center px-6 py-2.5 mt-2 bg-destructive hover:opacity-90 transition text-white rounded-full text-sm font-medium">
                     <LogIn size={16} />
                     <span>Login</span>
