@@ -9,7 +9,6 @@ const Hero = () => {
       style={{ backgroundImage: "url('/bg.jpg')" }}
     >
       
-      {/* Optional: Dark overlay tint to ensure text remains readable over the background image */}
       <div className="absolute inset-0 bg-black/10 pointer-events-none z-0" />
 
       {/* ✅ UPDATED: Changed from a 2-column grid layout to a clean centered or left-aligned column */}
